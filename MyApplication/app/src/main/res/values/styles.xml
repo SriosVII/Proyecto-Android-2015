@@ -1,0 +1,29 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AddTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/AddColor1</item>
+        <item name="colorPrimaryDark">@color/AddColor2</item>
+        <item name="colorAccent">@color/AddColor3</item>
+    </style>
+
+    <style name="ListTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ListColor1</item>
+        <item name="colorPrimaryDark">@color/ListColor2</item>
+        <item name="colorAccent">@color/ListColor3</item>
+    </style>
+
+    <style name="CalendarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/AddColor1</item>
+        <item name="colorPrimaryDark">@color/AddColor2</item>
+        <item name="colorAccent">@color/AddColor3</item>
+    </style>
+
+
+</resources>

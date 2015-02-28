@@ -1,0 +1,155 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:elevation="5dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView2"
+                android:src="@drawable/ic_content_add"
+                android:background="#ff0043aa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal"
+            android:backgroundTintMode="add"
+            android:id="@+id/LLAgregar"
+            android:focusable="false"
+            android:background="#ff0057db"
+            android:elevation="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Agregar Cliente"
+                android:id="@+id/textView2"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textColor="#ffffffff" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:background="#ff68ff79"
+        android:elevation="4dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:elevation="1dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/imageView"
+                android:src="@drawable/ic_action_perm_contact_cal"
+                android:layout_gravity="center_vertical"
+                android:background="#ff13b21e"
+                android:elevation="1dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:elevation="5dp"
+
+            android:focusable="true"
+            android:background="#ff12e01d">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffffff"
+                android:text="Lista de Clientes" />
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+            android:baselineAligned="false">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:background="#ffff3c3d"
+                android:elevation="1dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/ic_action_event"
+                    android:background="#ffba2523" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffff2f2b"
+                android:gravity="center_horizontal"
+                android:elevation="1dp">
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ver Calendario"
+                android:id="@+id/textView3"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>
